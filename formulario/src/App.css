@@ -1,0 +1,48 @@
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.form-control input {
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+input,
+textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    border-radius: 20px;
+	border: 1px solid #F2eee3;
+	background-color: #F2eee3;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	border-color: red;
+	cursor: pointer;
+}
+
+button:hover {
+    background-color: #cfcfcf;
+}
